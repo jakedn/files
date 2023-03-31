@@ -27,7 +27,7 @@ def print_progress_bar(iteration, total, prefix='Progress:', suffix='Complete',
 
 def get_file_dir_paths(directory):
     """
-    this function takes in a directory and returns all subdirectories and files in them.
+    Takes in a directory and returns all subdirectories and files in them.
     :param directory: top directory to start from
     :return: list of absolute file paths, list of absolute directory paths
     """

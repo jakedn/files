@@ -1,9 +1,6 @@
 import sys
 
 
-
-
-
 def read_hash_dic(hash_file):
     """
     read all hashes in the format:

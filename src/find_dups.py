@@ -7,26 +7,17 @@ if __name__ == '__main__':
 
     ''' list of files to read the <hash>:<filename> from '''
     hash_file_names = [
-        #'/mnt/x_tank/MOVING/jakedn/Nas-Maintenace/dedup.hash'
+        
     ]
 
     ''' Dirs to hash and write there hash files '''
     hash_dirs = [
-        #'/mnt/x_tank/APPS/NEXTCLOUD_UBUNTU/data/admin/files/SHARES/TEMP/miriams_sorting_folder/Miriams250SSD'
-        #'/mnt/x_tank/MOVING/jakedn/dedup'
-        #'/mnt/x_tank/APPS/NEXTCLOUD_UBUNTU/data/admin/files/SHARES/MEMORIES/jakesPictures/wax-museum',
-        #'/mnt/x_tank/APPS/NEXTCLOUD_UBUNTU/data/jakedn/files/Photos/IphonePhotos',
-        #'/mnt/x_tank/APPS/NEXTCLOUD_UBUNTU/data/admin/files/SHARES/TEMP/miriams_sorting_folder/Miriams250SSD/Unsorted-MEMORIES/photoesToSort'
-        #'/mnt/x_tank/NEXTCLOUD_UBUNTU-daily-2022-10-09_00-00-clone/data/jakedn/files/Photos/IphonePhotos/'
-        #'/mnt/x_tank/NEXTCLOUD_UBUNTU-daily-2022-10-09_00-00-clone/data/admin/files/SHARES/MEMORIES/jakesPictures/wax-museum',
-        #'/mnt/x_tank/NEXTCLOUD_UBUNTU-daily-2022-10-09_00-00-clone/data/jakedn/files/Photos/IphonePhotos', 
-        #'/mnt/x_tank/NEXTCLOUD_UBUNTU-daily-2022-10-09_00-00-clone/data/admin/files/SHARES/TEMP/miriams_sorting_folder/Miriams250SSD/Unsorted-MEMORIES/photoesToSort'
-        '/Volumes/darktable/dedup'
+        '/'
     ]
 
     ''' dir that all of our files will be written out to '''
-    write_dir = '/Volumes/darktable/dedup_output'
-    # write_dir = '/mnt/x_tank/MOVING/jakedn/Nas-Maintenace/hashes'
+    write_dir = '/result'
+    # write_dir = '/result'
 
     ''' the duplicate file name '''
     write_file_name = f'{write_dir}/dups.md'

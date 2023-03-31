@@ -41,5 +41,6 @@ if __name__ == '__main__':
     file_names, dir_names = project_funcs.get_file_dir_paths(check_dir)
 
     conficts = path_case_conflict(file_names)
-    print(conficts)
+    for conf in conficts:
+        print(os.path.dirname(conf))
 

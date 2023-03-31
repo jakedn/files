@@ -80,8 +80,8 @@ def write_hash_dic(hash_dic, out_file):
     return 0
 
 if __name__ == '__main__':
-    calc_dir = '/mnt/x_tank/MOVING/jakedn/dedup'
-    out_dir = '/mnt/x_tank/MOVING/jakedn/Nas-Maintenace'
+    calc_dir = ''  # todo find a better way to get this
+    out_dir = ''  # todo find a better way to get this
     out_file_name = 'output.hash'
      # get directory from user and sort all paths
     if calc_dir == '' or not os.path.isdir(calc_dir):
